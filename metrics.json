@@ -1,0 +1,1095 @@
+{
+  "intercepted_black": 4,
+  "intercept_times": [
+    15170.0,
+    15470.0,
+    15780.0,
+    16370.0
+  ],
+  "white_lock_success": 8,
+  "black_lock_success": 1,
+  "white_locked_count": 0,
+  "white_locked_by_black": 1,
+  "black_locked_by_white": 8,
+  "collisions": 0,
+  "black_penetrations": 1,
+  "t_first_penetration": 20630.0,
+  "per_black": {
+    "b_usv1": {
+      "t_first_detect_by_uav": 12840.0,
+      "t_first_detect_by_usv": 16310.0,
+      "t_first_lock_start": 15180.0,
+      "locks_success": 2,
+      "t_exit": 16370.0,
+      "exit_reason": "intercepted"
+    },
+    "b_usv2": {
+      "t_first_detect_by_uav": 12240.0,
+      "t_first_detect_by_usv": null,
+      "t_first_lock_start": 14270.0,
+      "locks_success": 2,
+      "t_exit": 15170.0,
+      "exit_reason": "intercepted"
+    },
+    "b_usv3": {
+      "t_first_detect_by_uav": 12310.0,
+      "t_first_detect_by_usv": null,
+      "t_first_lock_start": 14420.0,
+      "locks_success": 2,
+      "t_exit": 15470.0,
+      "exit_reason": "intercepted"
+    },
+    "b_usv4": {
+      "t_first_detect_by_uav": 12420.0,
+      "t_first_detect_by_usv": null,
+      "t_first_lock_start": 14590.0,
+      "locks_success": 2,
+      "t_exit": 15780.0,
+      "exit_reason": "intercepted"
+    },
+    "b_usv5": {
+      "t_first_detect_by_uav": 16760.0,
+      "t_first_detect_by_usv": null,
+      "t_first_lock_start": null,
+      "locks_success": 0,
+      "t_exit": 20630.0,
+      "exit_reason": "penetration"
+    }
+  },
+  "per_white_usv": {
+    "w_usv1": {
+      "locks_started": 0,
+      "locks_success": 0,
+      "frozen_segments": []
+    },
+    "w_usv2": {
+      "locks_started": 0,
+      "locks_success": 0,
+      "frozen_segments": []
+    },
+    "w_usv3": {
+      "locks_started": 3,
+      "locks_success": 0,
+      "frozen_segments": []
+    },
+    "w_usv4": {
+      "locks_started": 6,
+      "locks_success": 0,
+      "frozen_segments": []
+    },
+    "w_usv5": {
+      "locks_started": 0,
+      "locks_success": 0,
+      "frozen_segments": []
+    }
+  },
+  "per_uav": {
+    "w_uav1": {
+      "air_seconds": 6790.0,
+      "recharge_seconds": 13850.0,
+      "cycles": 1,
+      "last_soc": 0.17027777777778175
+    },
+    "w_uav2": {
+      "air_seconds": 6100.0,
+      "recharge_seconds": 14540.0,
+      "cycles": 1,
+      "last_soc": 0.3044444444444457
+    },
+    "w_uav3": {
+      "air_seconds": 6370.0,
+      "recharge_seconds": 14270.0,
+      "cycles": 1,
+      "last_soc": 0.25194444444444836
+    },
+    "w_uav4": {
+      "air_seconds": 8060.0,
+      "recharge_seconds": 12580.0,
+      "cycles": 1,
+      "last_soc": 0.04277777777777771
+    },
+    "w_uav5": {
+      "air_seconds": 8830.0,
+      "recharge_seconds": 11810.0,
+      "cycles": 1,
+      "last_soc": 0.0
+    }
+  },
+  "timeline": [
+    {
+      "t": 12300.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 12300.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 12300.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 12300.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 12300.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 12360.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 12360.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 12480.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 12600.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 12600.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 12600.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 12720.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 12720.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 12720.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 12720.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 12720.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 12840.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 12840.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 12900.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 12900.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 13020.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 13020.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 13200.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 13200.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 13200.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 13260.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 13260.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 13380.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 13380.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 13380.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 13440.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 13440.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 13440.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 13500.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 13500.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 13500.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 13560.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 13560.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 13560.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 13560.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 13620.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 13680.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 13740.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 13740.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 13800.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 13800.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 13860.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 13860.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 13920.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 13920.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 14160.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 14160.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 14220.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 14220.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 14220.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 14270.0,
+      "event": "lock_start_white",
+      "actors": [
+        "w_usv4",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 14340.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 14340.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 14420.0,
+      "event": "lock_start_white",
+      "actors": [
+        "w_usv3",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 14520.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 14520.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 14570.0,
+      "event": "lock_success_white",
+      "actors": [
+        "w_usv4",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 14580.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 14580.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 14580.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 14580.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 14590.0,
+      "event": "lock_start_white",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 14720.0,
+      "event": "lock_success_white",
+      "actors": [
+        "w_usv3",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 14870.0,
+      "event": "lock_start_white",
+      "actors": [
+        "w_usv3",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 14880.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 14880.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 14880.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 14880.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 14880.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 14890.0,
+      "event": "lock_success_white",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 14890.0,
+      "event": "lock_start_white",
+      "actors": [
+        "w_usv4",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 14940.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 14940.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 15060.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 15060.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 15060.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 15160.0,
+      "event": "lock_start_black",
+      "actors": [
+        "b_usv2",
+        "w_usv4"
+      ]
+    },
+    {
+      "t": 15170.0,
+      "event": "lock_success_white",
+      "actors": [
+        "w_usv3",
+        "b_usv2"
+      ]
+    },
+    {
+      "t": 15170.0,
+      "event": "lock_start_white",
+      "actors": [
+        "w_usv3",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 15180.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 15180.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 15180.0,
+      "event": "lock_start_white",
+      "actors": [
+        "w_usv4",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 15190.0,
+      "event": "lock_start_black",
+      "actors": [
+        "b_usv3",
+        "w_usv3"
+      ]
+    },
+    {
+      "t": 15240.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 15240.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 15240.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 15290.0,
+      "event": "lock_start_black",
+      "actors": [
+        "b_usv4",
+        "w_usv4"
+      ]
+    },
+    {
+      "t": 15300.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 15300.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 15300.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 15360.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 15360.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 15390.0,
+      "event": "lock_start_black",
+      "actors": [
+        "b_usv1",
+        "w_usv4"
+      ]
+    },
+    {
+      "t": 15420.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 15420.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 15420.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 15470.0,
+      "event": "lock_success_white",
+      "actors": [
+        "w_usv3",
+        "b_usv3"
+      ]
+    },
+    {
+      "t": 15480.0,
+      "event": "lock_success_white",
+      "actors": [
+        "w_usv4",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 15480.0,
+      "event": "lock_start_white",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 15540.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 15540.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 15590.0,
+      "event": "lock_start_black",
+      "actors": [
+        "b_usv4",
+        "w_usv4"
+      ]
+    },
+    {
+      "t": 15780.0,
+      "event": "assign",
+      "actors": [
+        "w_usv1",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 15780.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 15780.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 15780.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 15780.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 15780.0,
+      "event": "lock_success_white",
+      "actors": [
+        "w_usv4",
+        "b_usv4"
+      ]
+    },
+    {
+      "t": 15780.0,
+      "event": "lock_start_white",
+      "actors": [
+        "w_usv4",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 15980.0,
+      "event": "lock_success_black",
+      "actors": [
+        "b_usv1",
+        "w_usv4"
+      ]
+    },
+    {
+      "t": 16280.0,
+      "event": "lock_start_black",
+      "actors": [
+        "b_usv1",
+        "w_usv4"
+      ]
+    },
+    {
+      "t": 16370.0,
+      "event": "lock_success_white",
+      "actors": [
+        "w_usv4",
+        "b_usv1"
+      ]
+    },
+    {
+      "t": 16800.0,
+      "event": "assign",
+      "actors": [
+        "w_usv2",
+        "b_usv5"
+      ]
+    },
+    {
+      "t": 16800.0,
+      "event": "assign",
+      "actors": [
+        "w_usv3",
+        "b_usv5"
+      ]
+    },
+    {
+      "t": 16800.0,
+      "event": "assign",
+      "actors": [
+        "w_usv4",
+        "b_usv5"
+      ]
+    },
+    {
+      "t": 16800.0,
+      "event": "assign",
+      "actors": [
+        "w_usv5",
+        "b_usv5"
+      ]
+    },
+    {
+      "t": 20630.0,
+      "event": "penetration",
+      "actors": [
+        "b_usv5"
+      ]
+    }
+  ]
+}
